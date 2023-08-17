@@ -1,7 +1,6 @@
 # LaravelBladeMinify
 Minifies Laravel Blade File with HTML, CSS and JQuery on runtime.
 
-
 <h2 align="left">Steps to Follow: </h2>
 
 ###
