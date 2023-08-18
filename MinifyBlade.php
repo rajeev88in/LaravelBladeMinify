@@ -44,17 +44,4 @@ class MinifyBlade
         }
         return $response;
     }
-
-    public function minify2($input)
-    {
-        $search = [
-            '/\>\s+/s',
-            '/\s+</s',
-        ];
-        $replace = [
-            '> ',
-            ' <',
-        ];
-        return preg_replace($search, $replace, $input);
-    }
 }
