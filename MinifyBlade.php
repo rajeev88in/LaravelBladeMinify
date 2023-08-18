@@ -40,7 +40,6 @@ class MinifyBlade
             }
             $buffer = preg_replace(array_keys($replace), array_values($replace), $buffer);
             $response->setContent($buffer);
-            ini_set('zlib.output_compression', 'On'); // If you like to enable GZip, too!
         }
         return $response;
     }
